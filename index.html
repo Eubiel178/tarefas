@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="tarefas.js"></script>
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <h1 class="text title">ADICIONAR TAREFAS</h1>
+        </header>
+        
+        <form class="form" onsubmit="addTarefa()" class="form-tarefas">
+            <input class="botao-input input-config" type="text" name="tarefa" id="tarefas" placeholder="Descrição da tarefa">
+            <button class="botao botao-input" type="submit">Adicionar</button>
+        </form>
+
+        <h2 class="text sub-titulo">TAREFAS</h2>
+        <ul class="lista-tarefas" id="lista-tarefas">
+        </ul>
+    </main>
+</body>
+</html>
